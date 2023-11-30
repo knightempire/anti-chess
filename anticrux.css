@@ -1,0 +1,141 @@
+
+
+.AntiCrux-background-black {
+	background-color:black;
+}
+
+.AntiCrux-background-white {
+	background-color:white;
+}
+
+.AntiCrux-hSizer {
+	overflow:hidden;
+}
+
+.AntiCrux-hSizer DIV.AntiCrux-vSizer {
+	float:left;
+	padding:5px;
+}
+
+.AntiCrux-leftMargin {
+	margin-left:15px;
+}
+
+.AntiCrux-big {
+	font-size:20pt;
+}
+
+.AntiCrux-notice {
+	padding:5px;
+	border:1px solid black;
+	background-color:#FFFFC0;
+	color:black;
+	text-shadow:none;
+}
+
+
+/*===== Particular styles =====*/
+
+.AntiCrux-table TH {
+    border-bottom:1px solid #D6D6D6;
+}
+
+.AntiCrux-table TR {
+	text-shadow:none;
+}
+
+
+/*===== Board =====*/
+
+.AntiCrux-board-promotion {
+	font-size:24pt;
+}
+
+.AntiCrux-board {
+	display:block;
+	box-shadow:1px 1px 5px 1px black;
+}
+
+.AntiCrux-board-coordinates-vertical {
+	float:left;
+	width:20px;
+	line-height:50px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:bold;
+}
+.AntiCrux-board-coordinates-horizontal {
+	float:left;
+	width:50px;
+	line-height:20px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:bold;
+}
+.AntiCrux-board-coordinates-corner {
+	float:left;
+	height:20px;
+	width:20px;
+	background-color:#A6ABD6;
+	position:relative;
+}
+.AntiCrux-board-coordinates-corner-player {
+	position:absolute;
+	left:4px;
+	top:4px;
+	width:10px;
+	height:10px;
+	border:1px solid black;
+}
+
+.AntiCrux-board-line {
+	overflow:hidden;
+}
+
+.AntiCrux-board-cell-0 {
+	float:left;
+	background-color:#A6ABD6;
+	width:50px;
+	height:50px;
+	text-align:center;
+	font-weight:bold;
+	color:yellow;
+}
+.AntiCrux-board-cell-1 {
+	float:left;
+	background-color:#F0F0F0;
+	width:50px;
+	height:50px;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:bold;
+	color:red;
+}
+.AntiCrux-board-cell-hl {
+	float:left;
+	background-color:#00FF00;
+	width:50px;
+	height:50px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.AntiCrux-board-piece-241	{	background-image:url(images/piece_241.png);	}
+.AntiCrux-board-piece-242	{	background-image:url(images/piece_242.png);	}
+.AntiCrux-board-piece-243	{	background-image:url(images/piece_243.png);	}
+.AntiCrux-board-piece-244	{	background-image:url(images/piece_244.png);	}
+.AntiCrux-board-piece-245	{	background-image:url(images/piece_245.png);	}
+.AntiCrux-board-piece-246	{	background-image:url(images/piece_246.png);	}
+.AntiCrux-board-piece-161	{	background-image:url(images/piece_161.png);	}
+.AntiCrux-board-piece-162	{	background-image:url(images/piece_162.png);	}
+.AntiCrux-board-piece-163	{	background-image:url(images/piece_163.png);	}
+.AntiCrux-board-piece-164	{	background-image:url(images/piece_164.png);	}
+.AntiCrux-board-piece-165	{	background-image:url(images/piece_165.png);	}
+.AntiCrux-board-piece-166	{	background-image:url(images/piece_166.png);	}
+
+
+/*===== History =====*/
+
+.AntiCrux-history-item {
+	cursor:pointer;
+}

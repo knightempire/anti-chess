@@ -1,0 +1,41 @@
+
+
+#acui_tab_board_evaluation {
+	width:300px;
+}
+
+#acui_tab_board_history {
+	width:300px;
+}
+
+#acui_graph_score {
+	width:300px;
+	height:350px;
+	border:1px solid gray;
+	position:relative;
+}
+
+#acui_score_scrollbox,#acui_history_scrollbox {
+	width:100%;
+	height:300px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	border:1px solid gray;
+}
+
+#acui_sect_eval {
+	line-height:30px;
+}
+
+#acui_input {
+	font-family:monospace;
+	resize:none;
+}
+
+.acui_block {
+	display:block;
+}
+
+.acui_img {
+	vertical-align:middle;
+}
